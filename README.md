@@ -11,7 +11,7 @@ Hasil akhir data disimpan dalam format Parquet dan divisualisasikan melalui AWS 
 ## 📌 Flow Pipeline:
 Youtube Data API -> Python ETL -> Airflow Orchestration -> Amazon S3 Raw Data Upload -> AWS Glue ETL -> AWS Glue Data Catalog -> Quick Sight Dashboard
 
-![Pipeline Architecture](visual/pipeline_flow.png)
+![Pipeline Flow](visual/pipeline_flow.png)
 
 ## 📌 Key Features
 - Daily batch ingestion menggunakan Apache Airflow
