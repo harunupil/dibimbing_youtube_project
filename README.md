@@ -1,3 +1,4 @@
+
 # Final Project Data Engineering Bootcamp
 # Youtube Trending Video Analytics & Sentiment Pipeline
 
@@ -19,6 +20,13 @@ Youtube Data API -> Python ETL -> Airflow Orchestration -> Amazon S3 Raw Data Up
 - Multi-topic analysis berdasarkan subject profesional
 - Schema enforcement menggunakan AWS Glue
 - Interactive dashboard untuk analisis engagement & sentiment
+
+## 📌 Dashboard Example
+Dashboard ini digunakan untuk menganalisis performa YouTube video berdasarkan
+subject profesional, dengan fokus pada engagement dan sentiment analysis.
+
+![Dashboard Example](visual/dashboard_example.PNG)
+
 
 ## Author
 **Luthfi Arif Radriyantomo**
