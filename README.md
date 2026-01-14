@@ -36,9 +36,15 @@ The following unique inputs must be configured in the `config.conf` file to run 
     - Secret Key
     - Region
     - S3 Bucket Name
+      
+## 📌 AWS Setup
+The following AWS components are required to run the pipeline in a cloud environment:
+- Amazon S3
+- AWS Glue (Example code can be found in `aws_job/aws_youtube_glue_job.py`)
+- Amazon QuickSight
 
-## 📌 How To Setup
 
+## 📌 How To Setup (Project)
 1. Ensure all project files are cloned into a single directory
 2. Populate all required variables in the `config.conf` file (YouTube API Key and AWS credentials)
 3. Build the Docker image and start all services by running:
@@ -52,6 +58,7 @@ docker compose up -d --build
 ```bash
 http://localhost:8080
 ```
+
 
 ## 📌 Dashboard Example
 The dashboard is used to analyze YouTube video performance across professional subjects, with a focus on engagement metrics and sentiment analysis.
