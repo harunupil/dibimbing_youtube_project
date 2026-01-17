@@ -23,10 +23,8 @@ Youtube Data API -> Python ETL -> Airflow Orchestration -> Amazon S3 Raw Data Up
 
 ## 📌 System Requirements
 - Visual Studio
-- Python
+- Python 3.9++
 - Docker 
-- Apache Airflow 
-- PostgreSQL
 
 ## 📌 Required Credentials & Configuration
 The following unique inputs must be configured in the `config.conf` file to run the pipeline:
