@@ -15,7 +15,8 @@ Youtube Data API -> Python ETL -> Airflow Orchestration -> Amazon S3 Raw Data Up
 ![Pipeline Flow](visual/pipeline_flow_v1.PNG)
 
 ## 📌 Key Features
-- Daily batch ingestion using Apache Airflow
+- Daily batch orchestration using Apache Airflow
+- Distributed task execution using Airflow Scheduler, Celery Workers, Redis, and PostgreSQL metadata database
 - Sentiment analysis based on top video comments
 - Multi-topic analysis across professional subject categories
 - Schema enforcement and data transformation using AWS Glue
