@@ -17,8 +17,9 @@ Youtube Data API -> Python ETL -> Airflow Orchestration -> Amazon S3 Raw Data Up
 ## 📌 Key Features
 - Daily batch orchestration using Apache Airflow
 - Distributed task execution using Airflow Scheduler, Celery Workers, Redis, and PostgreSQL metadata database
+- Ingestion of YouTube video metadata and top comments via YouTube Data API
 - Sentiment analysis based on top video comments
-- Multi-topic analysis across professional subject categories
+- Multi-topic analysis across professional subject categories (Data Engineer, Finance, DevOps, etc.)
 - Schema enforcement and data transformation using AWS Glue
 - Interactive dashboards for engagement and sentiment analysis
 
