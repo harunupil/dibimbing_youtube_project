@@ -12,7 +12,7 @@ The final processed data is stored in Parquet format and visualized using AWS Qu
 ## 📌 Flow Pipeline:
 Youtube Data API -> Python ETL -> Airflow Orchestration -> Amazon S3 Raw Data Upload -> AWS Glue ETL -> AWS Glue Data Catalog -> Quick Sight Dashboard
 
-![Pipeline Flow](visual/pipeline_flow.PNG)
+![Pipeline Flow](visual/pipeline_flow_v1.PNG)
 
 ## 📌 Key Features
 - Daily batch ingestion using Apache Airflow
